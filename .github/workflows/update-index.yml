@@ -1,0 +1,54 @@
+name: Update APT Index
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dpkg-dev
+        run: sudo apt-get install -y dpkg-dev
+
+      - name: Generate Packages index
+        run: |
+          cd dists/stable/main/binary-amd64
+          dpkg-scanpackages . /dev/null > Packages
+          gzip -9c Packages > Packages.gz
+
+      - name: Generate Release file
+        run: |
+          cd dists/stable
+          rm -f Release.gpg InRelease
+          {
+            echo "Origin: Personal Repository"
+            echo "Label: Personal Packages"
+            echo "Suite: stable"
+            echo "Codename: stable"
+            echo "Architectures: amd64"
+            echo "Components: main"
+            echo "Description: Personal apt repository"
+            echo "Date: $(date -R -u)"
+            echo "MD5Sum:"
+            find . -type f -name "Packages*" | while read f; do
+              echo " $(md5sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
+            done
+            echo "SHA256:"
+            find . -type f -name "Packages*" | while read f; do
+              echo " $(sha256sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
+            done
+          } > Release
+
+      - name: Commit and push index
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto-update apt index" || exit 0
+          git push
