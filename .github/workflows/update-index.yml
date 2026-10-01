@@ -18,9 +18,8 @@ jobs:
 
       - name: Generate Packages index
         run: |
-          cd dists/stable/main/binary-amd64
-          dpkg-scanpackages . /dev/null > Packages
-          gzip -9c Packages > Packages.gz
+          dpkg-scanpackages dists/stable/main/binary-amd64 /dev/null > dists/stable/main/binary-amd64/Packages
+          gzip -9c dists/stable/main/binary-amd64/Packages > dists/stable/main/binary-amd64/Packages.gz
 
       - name: Generate Release file
         run: |
