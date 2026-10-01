@@ -27,6 +27,6 @@ SHA1: 454e5f5f5b4b57c95f066af02bd13c0917f8b657
 SHA256: 144a5bab1d5125a3216e1a1accefbdd343feb9695ec267ed7fd10e9dcf72a505
 Section: utils
 Priority: optional
-Description: Debian shortcut manager for creating and deleting command shortcuts. Run with sudo.
+Description: Debian shortcut manager
  Debian shortcut manager for creating and deleting command shortcuts
 
