@@ -12,15 +12,15 @@ Priority: optional
 Description: Selective disk wiper and free space overwriter for debian. Runs with sudo
 
 Package: dodomeki
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: conky
-Filename: dists/stable/main/binary-amd64/dodomeki_1.0.0_amd64.deb
-Size: 1128
-MD5sum: 560c351ae108e919aaed7f971977bd95
-SHA1: 807831efd77b28821a5a75a90b8a6b28b8650af6
-SHA256: d185145726d8aebb40fab45b5529ea911483b8f090bd76a9891024bb9d6e7d75
+Filename: dists/stable/main/binary-amd64/dodomeki_1.0.1_amd64.deb
+Size: 1124
+MD5sum: 0dd71476a2f670fd3df2654c645337f8
+SHA1: 67c1c0789cbc4e24bc792c5cac93ed31aabef0ba
+SHA256: ffefea5686e9a2e3bc0e931fa06f4d6d91cf71e8b39d7844dd2a71d9a058cd38
 Section: x11
 Priority: optional
 Description: dodmeki is a conky instance for Kali Rolling Linux, but can be used on any debian instance. Created by 0hex01
