@@ -1,5 +1,4 @@
 # Ignore temporary files
-*.deb
 *.tmp
 *.bak
 
