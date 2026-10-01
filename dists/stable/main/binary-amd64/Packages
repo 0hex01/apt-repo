@@ -1,3 +1,16 @@
+Package: disk-wiper
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Michael <anatomyangel9432@proton.me>
+Filename: dists/stable/main/binary-amd64/disk-wiper_1.0.0_amd64.deb
+Size: 24456
+MD5sum: 214fdda7719cb755f70fa482f6323507
+SHA1: 2f0f77e10d3e0b05cbe58cb17657962f4775d91a
+SHA256: e878b5710ba9b75a49d55e8bef118230859dc67a9ab1c20c5c8f678bcf8ef13c
+Section: admin
+Priority: optional
+Description: Selective disk wiper and free space overwriter for debian. Runs with sudo
+
 Package: rgb-rog
 Version: 1.0.0
 Architecture: amd64
