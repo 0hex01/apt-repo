@@ -17,10 +17,10 @@ Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: conky
 Filename: dists/stable/main/binary-amd64/dodomeki_1.0.2_amd64.deb
-Size: 1124
-MD5sum: 3ec074a312319c75d10164f8d2f5e168
-SHA1: c4ac298396895f4f74c00621d3290330b2f7f16b
-SHA256: b9bcddee0022cd035fefea494b2e42e533a14abf5f0a07d0587a70b7746ddef0
+Size: 3644
+MD5sum: c571046ef267bb42682d36431e843795
+SHA1: d26b8eb0a7042ac86e5a6f2d051e687b012cb5ef
+SHA256: 6b8962253f1a01235bf7cc0c35ffe0ef6300ff2012b315f9507c2cb168e56c27
 Section: x11
 Priority: optional
 Description: dodmeki is a conky instance for Kali Rolling Linux, but can be used on any debian instance. Created by 0hex01
