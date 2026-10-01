@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Personal Repository
+Label: Michael's Personal Packages
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Personal apt repository
+Date: Thu, 01 Oct 2026 01:21:12 +0000
+MD5Sum:
+ c898017447e138a95f247d5338836f2d 207 Release
+SHA1:
+ 3d91e879904a547893f080ed5fd71eb424e6c752 207 Release
+SHA256:
+ 5b680e163339f93264240bbc731d72d49bc91ed3492f6c92c216b22c72bf465f 207 Release
+MD5Sum:
+ a2887432b1ee18fd605beeb928d4ad8d 482 main/binary-amd64/Packages.gz
+SHA1:
+ 8f43b5e3076b0694e855e60ac892de3f51ca3694 482 main/binary-amd64/Packages.gz
+SHA256:
+ 7eb57135b16fd5c81583b223f66fd464472f28dbd7d7f62033bcfca73157df0d 482 main/binary-amd64/Packages.gz
+MD5Sum:
+ 462cbe3d70d0330e6b56f59ccc3a6801 657 main/binary-amd64/Packages
+SHA1:
+ bc79f5a9ff4ba80cf834cbcb0460ca993562809e 657 main/binary-amd64/Packages
+SHA256:
+ bb2b5e49d69868b52f265bc7cb51b7a7ffe62a64fb1a4ad738ee63ed27d141b4 657 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEExfd5sq8Sy7Jc8m7ETVbx/ZwSKcsFAmq9tZMACgkQTVbx/ZwS
+KcvoPQv9GEdUlp1sh+lF340nfyXJ0mJfpv6NP0uehFlE8OMVAYjjKS3mO01R2iR3
+LhsH/BbPRF1zLEtOA6cjtLOz4blzSfFt0c63N/p2rbe1YDhZ8U1zGdhIDzBWaH2F
+U2ihlFCBs52yP8ijHdTwVshuCNrna/Co+e5G+kDYC1D7+6eVCoY3AKPvQT+SXwAE
++LnhxPs2sggdRXatLjgFcT2fvlL49l6wdRUOyPS+qAyegr+eHV6hMIW1uTHDefor
+JogCyCHfeK+ANSMjtUb+uhJ6AizMFjwjq18cHD5XDO7Relp+P+Mji+nSORRDwXT5
+JZpwXVCBp7dYSTOeA35Wv1dWALUH5qaVcy3+qHKYr23kYuBjt0c5UCmu3yrRI9Fj
+tzko+nQmByyk59kA6ECgzBrVpwKvX/1JRb5OVLXfGMpUousl0fQp7Tp82cF8F79w
+leAMlzju2/1BfNUfzbkAE7Rg5ZcbyJrupBNYnLRMHCrE+9OlJPdwa7RkzoGKFc0n
+o++olb9g
+=Zjps
+-----END PGP SIGNATURE-----

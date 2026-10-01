@@ -1,0 +1,17 @@
+Package: rgb-rog
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Michael <anatomyangel9432@proton.me>
+Depends: python3, python3-usb, python3-pyqt6
+Filename: dists/stable/main/binary-amd64/rgb-rog_1.0.0_amd64.deb
+Size: 5472
+MD5sum: 466b4a608a854a6f66b2c4fb5e0c1a93
+SHA1: 57a18c62f658cce3b318ffe8479ceaeabc2f3f4b
+SHA256: 537b31312c82ed3d5bf56c44e73680b4ce5edd3a526b7ed91f7825253be855fe
+Section: utils
+Priority: optional
+Description: ASUS ROG Keyboard RGB Control
+ GUI application for controlling RGB lighting on ASUS ROG laptops.
+ Supports multiple lighting modes including Static, Breathing, Rainbow,
+ Wave, and more with customizable colors and brightness.
+
