@@ -10,7 +10,7 @@ KEY_ID="C5F779B2AF12CBB25CF26EC44D56F1FD9C1229CB"
 cd "$REPO_DIR" || exit 1
 
 # Generate Packages file
-dpkg-scanpackages --multiversion dists/$DIST/$COMPONENT/binary-$ARCH / > dists/$DIST/$COMPONENT/binary-$ARCH/Packages 2>/dev/null || true
+dpkg-scanpackages --multiversion dists/$DIST/$COMPONENT/binary-$ARCH /dev/null > dists/$DIST/$COMPONENT/binary-$ARCH/Packages 2>/dev/null || true
 gzip -9c dists/$DIST/$COMPONENT/binary-$ARCH/Packages > dists/$DIST/$COMPONENT/binary-$ARCH/Packages.gz
 
 # Generate Release file
