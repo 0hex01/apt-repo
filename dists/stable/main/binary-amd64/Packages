@@ -27,15 +27,15 @@ Description: dodmeki is a conky instance for Kali Rolling Linux, but can be used
  Runs with "start dodomeki" and closes with "stop dodomeki"
 
 Package: rgb-rog
-Version: 1.0.0
+Version: 1.0.1
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
-Depends: python3, python3-pyqt6
-Filename: dists/stable/main/binary-amd64/rgb-rog_1.0.0_amd64.deb
-Size: 5492
-MD5sum: b9525f08ab495dd9c881e758794477ff
-SHA1: 02e13ca7304b6322bf9c5a614d1f793792509753
-SHA256: 158cfcc815850a4a06b61b18fd5a5fbec02673436a8c8a9518cec2256d7f5146
+Depends: python3, python3-pyqt6, python3-usb
+Filename: dists/stable/main/binary-amd64/rgb-rog_1.0.1_amd64.deb
+Size: 16312
+MD5sum: aed611ad741ff3631ba80a9a6c4a392b
+SHA1: 18c39a9ac1e2ed18913c99e874118e92ccc76497
+SHA256: 16c5040bddf0a3f64fa2b5d8d943e372d7e6e5f03132cbdf16c8e9c26e29fd73
 Section: utils
 Priority: optional
 Description: ASUS ROG Keyboard RGB Control
