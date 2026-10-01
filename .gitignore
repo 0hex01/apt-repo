@@ -1,0 +1,8 @@
+# Ignore temporary files
+*.deb
+*.tmp
+*.bak
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
