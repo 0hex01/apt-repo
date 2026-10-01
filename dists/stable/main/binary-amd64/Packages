@@ -3,7 +3,7 @@ Version: 1.0.0
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: python3, python3-pyqt6
-Filename: ./rgb-rog_1.0.0_amd64.deb
+Filename: dists/stable/main/binary-amd64/rgb-rog_1.0.0_amd64.deb
 Size: 5492
 MD5sum: b9525f08ab495dd9c881e758794477ff
 SHA1: 02e13ca7304b6322bf9c5a614d1f793792509753
@@ -20,7 +20,7 @@ Package: shorts
 Version: 1.0.0
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
-Filename: ./shorts_1.0.0_amd64.deb
+Filename: dists/stable/main/binary-amd64/shorts_1.0.0_amd64.deb
 Size: 55236
 MD5sum: bcceb45760fd47cf7445e9a7f6bd1ffd
 SHA1: 454e5f5f5b4b57c95f066af02bd13c0917f8b657
