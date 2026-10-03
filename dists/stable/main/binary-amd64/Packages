@@ -1,13 +1,13 @@
 Package: conky-fix-kodachi
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: python3, python3-xlib, xdotool
-Filename: dists/stable/main/binary-amd64/conky-fix-kodachi_1.0.0_all.deb
-Size: 2156
-MD5sum: e3daae124d60acaa2e89ee00cac64840
-SHA1: 442e0aa850e4f3a92f208c96d627780db41db74d
-SHA256: cca5927577a73845ccfa135ae55d72405e6e20eca7a2c97960c7a47216ecb127
+Filename: dists/stable/main/binary-amd64/conky-fix-kodachi_1.0.1_all.deb
+Size: 2240
+MD5sum: 2456c29b8ed63009173381a47fcd1cd2
+SHA1: f2b45c530b54a336ba949c3f2f8ccf8ffc4196e5
+SHA256: b3e5f8ea9e90af5e120c8bb8bb1eda583b72f1c745fe6f4f6634498fb5a03e3b
 Section: x11
 Priority: optional
 Description: Fixes the click through issue where conky instances block selecting icons that are beneath them. Created by 0hex01.
