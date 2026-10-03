@@ -13,17 +13,17 @@ Priority: optional
 Description: Fixes the click through issue where conky instances block selecting icons that are beneath them. Created by 0hex01.
 
 Package: disk-wiper
-Version: 1.0.0
+Version: 1.0.1
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
-Filename: dists/stable/main/binary-amd64/disk-wiper_1.0.0_amd64.deb
-Size: 24456
-MD5sum: 214fdda7719cb755f70fa482f6323507
-SHA1: 2f0f77e10d3e0b05cbe58cb17657962f4775d91a
-SHA256: e878b5710ba9b75a49d55e8bef118230859dc67a9ab1c20c5c8f678bcf8ef13c
+Filename: dists/stable/main/binary-amd64/disk-wiper_1.0.1_amd64.deb
+Size: 24472
+MD5sum: e3c27503188459f1ee11efef241135d4
+SHA1: 6722417514500d84c37b8497f90fc15088efbd32
+SHA256: 75ea30e71e328ba6d0e516902838d987221e050b452293aa06f5e289c827661a
 Section: admin
 Priority: optional
-Description: Selective disk wiper and free space overwriter for debian. Runs with sudo
+Description: Selective disk wiper and free space overwriter for debian. Runs with sudo. Created by 0hex01.
 
 Package: dodomeki
 Version: 1.0.5
@@ -56,48 +56,48 @@ Priority: optional
 Description: kuchikopi green themed conky for debian. use start, stop, or persist + kuchikopi to use. Created by 0hex01.
 
 Package: rgb-rog
-Version: 1.0.0
+Version: 1.0.2
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
-Depends: python3, python3-pyqt6
-Filename: dists/stable/main/binary-amd64/rgb-rog_1.0.0_amd64.deb
-Size: 5492
-MD5sum: b9525f08ab495dd9c881e758794477ff
-SHA1: 02e13ca7304b6322bf9c5a614d1f793792509753
-SHA256: 158cfcc815850a4a06b61b18fd5a5fbec02673436a8c8a9518cec2256d7f5146
+Depends: python3, python3-pyqt6, python3-usb
+Filename: dists/stable/main/binary-amd64/rgb-rog_1.0.2_amd64.deb
+Size: 16328
+MD5sum: 8483e37d2f1635679705e8f454cb23d5
+SHA1: e1b777d19057812dc50f40390f41c1768e8940f8
+SHA256: f60d441bf2595d95237b6dde7d6b976009a25934e9ed35abf78378fc622e0bb8
 Section: utils
 Priority: optional
-Description: ASUS ROG Keyboard RGB Control
+Description: ASUS ROG Keyboard RGB Control. Created by 0hex01.
  Colored lights controll for ROG laptop keys.
  GUI application for controlling RGB lighting on ASUS ROG laptops.
  Supports multiple lighting modes including Static, Breathing, Rainbow,
  Wave, and more with customizable colors and brightness.
 
 Package: shorts
-Version: 1.0.0
+Version: 1.0.1
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
-Filename: dists/stable/main/binary-amd64/shorts_1.0.0_amd64.deb
-Size: 55236
-MD5sum: bcceb45760fd47cf7445e9a7f6bd1ffd
-SHA1: 454e5f5f5b4b57c95f066af02bd13c0917f8b657
-SHA256: 144a5bab1d5125a3216e1a1accefbdd343feb9695ec267ed7fd10e9dcf72a505
+Filename: dists/stable/main/binary-amd64/shorts_1.0.1_amd64.deb
+Size: 55260
+MD5sum: e250557f061e81713d1d1fb425b95b00
+SHA1: 9c09b03e150d8a15d217559fa5d092d470aa2b12
+SHA256: c95dc1cc6703604b6d8256f6888af900b2264d878e4b2cf5dea35398becffc49
 Section: utils
 Priority: optional
-Description: Debian shortcut manager
+Description: Debian shortcut manager. Created by 0hex01.
  Debian shortcut manager for creating and deleting command shortcuts
 
 Package: vpnman
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: python3, python3-tk, openvpn, curl, iputils-ping
-Filename: dists/stable/main/binary-amd64/vpnman_1.0.0_all.deb
-Size: 85176
-MD5sum: db8dda66bd2d941c86ab1bd0234925ff
-SHA1: 65146eb15ac38ee0e8e2dedc852d5fca90dd6613
-SHA256: 8d0fd9306d92514f92e4c92db8c7d60aa66aff3ee6db845bdd8a8abf957584b8
+Filename: dists/stable/main/binary-amd64/vpnman_1.0.1_all.deb
+Size: 85196
+MD5sum: 16c21ce64a0c158e5a7ba830634090de
+SHA1: 341e88fb37a508bfc5a0d2d192b8052c4650cf95
+SHA256: 8a923ba8dbe46c562109d7f4f0693277431397e730ef217132d8ea5c031e41ff
 Section: net
 Priority: optional
-Description: Openvpn manager for protonvpn on debian. Run with sudo. Includes tcp, udp, secure tcp, and secure udp connection protocols.
+Description: Openvpn manager for protonvpn on debian. Run with sudo. Includes tcp, udp, secure tcp, and secure udp connection protocols. Created by 0hex01.
 
