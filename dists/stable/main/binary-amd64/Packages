@@ -26,30 +26,29 @@ Priority: optional
 Description: Selective disk wiper and free space overwriter for debian. Runs with sudo
 
 Package: dodomeki
-Version: 1.0.3
+Version: 1.0.4
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: conky
-Filename: dists/stable/main/binary-amd64/dodomeki_1.0.3_all.deb
-Size: 96324
-MD5sum: a4db159ec50c3d0332c0002cf81dfa70
-SHA1: fee6b32c807563ca9fd7be4c32aa282416dcc2f5
-SHA256: ef82521117bea3d188e507d727c6acf093e3c95fca2d79bc2222505b187a5ecb
+Filename: dists/stable/main/binary-amd64/dodomeki_1.0.4_all.deb
+Size: 96600
+MD5sum: 064deab9ddf42eae12c998ee14570e4a
+SHA1: ec0f532b09ce653e506d77f52fa2c642902650fe
+SHA256: 1deeaa0087198e2a1cd22f5002378e3681b9b3cd454d03312427551748fde820
 Section: x11
 Priority: optional
-Description: dodmeki is a conky instance for Kali Rolling Linux, but can be used on any debian instance. Created by 0hex01
- Runs with "start dodomeki" and closes with "stop dodomeki"
+Description: dodomeki is a conky instance for Kali Rolling Linux, but can be used on any debian instance. use start, stop, or persist + dodomeki to use. Created by 0hex01.
 
 Package: kuchikopi
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: conky, dodomeki
-Filename: dists/stable/main/binary-amd64/kuchikopi_1.0.0_all.deb
-Size: 3184
-MD5sum: 45334a3621c2dd6e29177247cd21af1f
-SHA1: 77174de122283c77a07441f01732421c75044adf
-SHA256: b62aa34dfe41f312da2e0ec8a24172a2b3b4802e61aa5381b8420f9c932cf695
+Filename: dists/stable/main/binary-amd64/kuchikopi_1.0.1_all.deb
+Size: 2740
+MD5sum: 883c7813f5e92fdc6e79bbdcff8e2e63
+SHA1: 42a8bb0af6a9f9fb92fae525994cd88bb7c851d0
+SHA256: c2a3920b24c63cfd55937a9d6c4c977a05e24ede6f6909ae6613d2fa3ab046d7
 Section: x11
 Priority: optional
 Description: kuchikopi green themed conky for debian. use start, stop, or persist + kuchikopi to use. Created by 0hex01.
