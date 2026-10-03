@@ -13,16 +13,16 @@ Priority: optional
 Description: Fixes the click through issue where conky instances block selecting icons that are beneath them. Created by 0hex01.
 
 Package: ctrlaltdel
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: xfce4-session, xfconf
 Replaces: dodomeki, kuchikopi
-Filename: dists/stable/main/binary-amd64/ctrlaltdel_1.0.0_all.deb
-Size: 1896
-MD5sum: 889750e158297c4ac4ed17e3fdf03333
-SHA1: 80935752a414b43c75d0b8b0b687847dce87db1e
-SHA256: 73f5ee33c71867076f919cf781a95716cd01a90b84e5a278e1b39c8c29887882
+Filename: dists/stable/main/binary-amd64/ctrlaltdel_1.0.1_all.deb
+Size: 2156
+MD5sum: e36aa698cc8810acfdd3e209cc262fc0
+SHA1: 7aec09610c2c0968301d1e07c27cd2693e9b2182
+SHA256: fdaa803ffe23fc67c77d6b6a10bfce454b4dbf1248486ae50e7370819b20df25
 Section: x11
 Priority: optional
 Description: Turns on or off exit menue. Created by 0hex01.
@@ -41,31 +41,31 @@ Priority: optional
 Description: Selective disk wiper and free space overwriter for debian. Runs with sudo. Created by 0hex01.
 
 Package: dodomeki
-Version: 1.0.5
+Version: 1.0.6
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: conky
-Replaces: kuchikopi
-Filename: dists/stable/main/binary-amd64/dodomeki_1.0.5_all.deb
-Size: 96612
-MD5sum: 716a5806cbbbe581f77b4f49e468c518
-SHA1: 2ab42e13c7e3a848b88c09eb131467551de26a11
-SHA256: 7398389bf29b5085cb2530032be44502b1f66504cc57ca26eb4f525ea244a25a
+Replaces: kuchikopi, ctrlaltdel
+Filename: dists/stable/main/binary-amd64/dodomeki_1.0.6_all.deb
+Size: 96748
+MD5sum: 741247df05477dd3fb1a915943e2bebd
+SHA1: 394aaa052a160d8b1830ab30a434e60bb3c4ae1a
+SHA256: 8c9de5bcc27dbe2a039ff60f1b72fc69665f1e7e8337ac71975a3f116dc25444
 Section: x11
 Priority: optional
 Description: dodomeki is a conky instance for Kali Rolling Linux, but can be used on any debian instance. use start, stop, or persist + dodomeki to use. Created by 0hex01.
 
 Package: kuchikopi
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: conky
-Replaces: dodomeki
-Filename: dists/stable/main/binary-amd64/kuchikopi_1.0.2_all.deb
-Size: 3320
-MD5sum: 814e62e547c90d38b487a112447df998
-SHA1: 55308c269d25bad2f53b49cf921ccb66ea314ff8
-SHA256: f79add64e49a5de160ea34c3b1efcf5aae6f2eebdad8e519696fd9d107506a46
+Replaces: dodomeki, ctrlaltdel
+Filename: dists/stable/main/binary-amd64/kuchikopi_1.0.3_all.deb
+Size: 3484
+MD5sum: c54d0cdb681cb9983a7c2a5c2c4e5059
+SHA1: da3048d6294fb94cce5dbaf061a30ad1a9959ff9
+SHA256: 838957e4a5a3f2672dcb04ef83a56e42271bfa35f43ac3d854895b9b7512aa8d
 Section: x11
 Priority: optional
 Description: kuchikopi green themed conky for debian. use start, stop, or persist + kuchikopi to use. Created by 0hex01.
