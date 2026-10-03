@@ -13,16 +13,16 @@ Priority: optional
 Description: Fixes the click through issue where conky instances block selecting icons that are beneath them. Created by 0hex01.
 
 Package: ctrlaltdel
-Version: 1.0.1
+Version: 1.0.2
 Architecture: all
 Maintainer: Michael <anatomyangel9432@proton.me>
 Depends: xfce4-session, xfconf
 Replaces: dodomeki, kuchikopi
-Filename: dists/stable/main/binary-amd64/ctrlaltdel_1.0.1_all.deb
-Size: 2156
-MD5sum: e36aa698cc8810acfdd3e209cc262fc0
-SHA1: 7aec09610c2c0968301d1e07c27cd2693e9b2182
-SHA256: fdaa803ffe23fc67c77d6b6a10bfce454b4dbf1248486ae50e7370819b20df25
+Filename: dists/stable/main/binary-amd64/ctrlaltdel_1.0.2_all.deb
+Size: 2244
+MD5sum: d8f47e47f8a4433a0486c0a594d623d8
+SHA1: 6885cf12c49f31a0ab8f49e89dc3ffa4471339a7
+SHA256: dbef8e9ec1cfa4f76bf66c9e0018f895de04b626146c6e1bee80a86c2877e14f
 Section: x11
 Priority: optional
 Description: Turns on or off exit menue. Created by 0hex01.
