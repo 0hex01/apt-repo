@@ -84,6 +84,20 @@ Section: x11
 Priority: optional
 Description: kuchikopi green themed conky for debian. use start, stop, or persist + kuchikopi to use. Created by 0hex01.
 
+Package: nvidia615
+Version: 1.0.0
+Architecture: all
+Maintainer: 0hex01
+Depends: wget, ca-certificates
+Filename: dists/stable/main/binary-amd64/nvidia615_1.0.0_all.deb
+Size: 2124
+MD5sum: ea3db054ef981eb5d4a3417ff418aa0b
+SHA1: 70c91d2fd6954d5c3077e8c8aabee57f5bea5445
+SHA256: 8099d4cde58dea499280ec79b2ecd12b1de12c7181fbb8b08a44fdcb346119e6
+Section: x11
+Priority: optional
+Description: Installs driver version 615 for rtx 5060 (blackwell). Created by 0hex01.
+
 Package: rgb-rog
 Version: 1.0.2
 Architecture: amd64
