@@ -12,6 +12,20 @@ Section: x11
 Priority: optional
 Description: Fixes the click through issue where conky instances block selecting icons that are beneath them. Created by 0hex01.
 
+Package: conky-fix-trixie
+Version: 1.0.0
+Architecture: all
+Maintainer: 0hex01
+Depends: python3-xlib, xdotool
+Filename: dists/stable/main/binary-amd64/conky-fix-trixie_1.0.0_all.deb
+Size: 2160
+MD5sum: 5556821d02a54e967a75848a7828ee97
+SHA1: e2ffefef6919b09d98c0b87169c0d1a25688164a
+SHA256: e34f77aa95a1f6cd056c5cf4ec555cffe486d4d3af66bb7ca1df461636420609
+Section: utils
+Priority: optional
+Description: fixes click through to icon on conkey. Created by 0hex01.
+
 Package: ctrlaltdel
 Version: 1.0.3
 Architecture: all
