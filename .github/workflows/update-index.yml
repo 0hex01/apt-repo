@@ -7,6 +7,11 @@ on:
 permissions:
   contents: write
 
+# only one index run at a time - a newer push supersedes the pending one
+concurrency:
+  group: update-index
+  cancel-in-progress: true
+
 jobs:
   update-index:
     runs-on: ubuntu-latest
@@ -16,38 +21,56 @@ jobs:
       - name: Install dpkg-dev
         run: sudo apt-get install -y dpkg-dev
 
-      - name: Generate Packages index
+      - name: Update index and push
         run: |
-          dpkg-scanpackages dists/stable/main/binary-amd64 /dev/null > dists/stable/main/binary-amd64/Packages
-          gzip -9c dists/stable/main/binary-amd64/Packages > dists/stable/main/binary-amd64/Packages.gz
-
-      - name: Generate Release file
-        run: |
-          cd dists/stable
-          rm -f Release.gpg InRelease
-          {
-            echo "Origin: Personal Repository"
-            echo "Label: Personal Packages"
-            echo "Suite: stable"
-            echo "Codename: stable"
-            echo "Architectures: amd64"
-            echo "Components: main"
-            echo "Description: Personal apt repository"
-            echo "Date: $(date -R -u)"
-            echo "MD5Sum:"
-            find . -type f -name "Packages*" | while read f; do
-              echo " $(md5sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
-            done
-            echo "SHA256:"
-            find . -type f -name "Packages*" | while read f; do
-              echo " $(sha256sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
-            done
-          } > Release
-
-      - name: Commit and push index
-        run: |
+          set -e
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add .
-          git commit -m "Auto-update apt index" || exit 0
-          git push
+
+          for i in 1 2 3; do
+            # sync to newest remote first - the only files we ever change are
+            # generated index files, so hard-resetting to remote is safe and
+            # can never produce a rebase conflict
+            git fetch origin
+            git reset --hard origin/main
+
+            dpkg-scanpackages dists/stable/main/binary-amd64 /dev/null \
+              > dists/stable/main/binary-amd64/Packages
+            gzip -9c dists/stable/main/binary-amd64/Packages \
+              > dists/stable/main/binary-amd64/Packages.gz
+
+            cd dists/stable
+            rm -f Release.gpg InRelease
+            {
+              echo "Origin: Personal Repository"
+              echo "Label: Personal Packages"
+              echo "Suite: stable"
+              echo "Codename: stable"
+              echo "Architectures: amd64"
+              echo "Components: main"
+              echo "Description: Personal apt repository"
+              echo "Date: $(date -R -u)"
+              echo "MD5Sum:"
+              find . -type f -name "Packages*" | while read f; do
+                echo " $(md5sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
+              done
+              echo "SHA256:"
+              find . -type f -name "Packages*" | while read f; do
+                echo " $(sha256sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
+              done
+            } > Release
+            cd ../..
+
+            git add .
+            if git diff --cached --quiet; then
+              echo "index already current - nothing to do"
+              exit 0
+            fi
+            git commit -m "Auto-update apt index"
+
+            git push && exit 0
+            echo "push rejected - remote moved, retrying"
+            sleep 2
+          done
+          echo "push failed after 3 attempts"
+          exit 1
