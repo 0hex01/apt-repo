@@ -131,15 +131,15 @@ Description: Debian shortcut manager. Created by 0hex01.
  Debian shortcut manager for creating and deleting command shortcuts
 
 Package: terminal9
-Version: 1.1.0
+Version: 1.1.1
 Architecture: amd64
 Maintainer: 0hex01
 Depends: libvte-2.91-0, libgtk-3-0t64 | libgtk-3-0
-Filename: dists/stable/main/binary-amd64/terminal9_1.1.0_amd64.deb
-Size: 16648
-MD5sum: d3effc7a7797bf0d5536d1037887f39b
-SHA1: 04a51e85302a4d974d8e133cc87b59eb4d96e08f
-SHA256: 49c575dbaa4f7f39d8849b5445dd2ef48618a1a78d074462b28e067b57af2b68
+Filename: dists/stable/main/binary-amd64/terminal9_1.1.1_amd64.deb
+Size: 16848
+MD5sum: fce6953469b9b1975deca33c2acdeaf1
+SHA1: 2d588190f0041ca389fedbfe1b614b928fc8fd06
+SHA256: 4e76551498ac978ea3d70e8cf94dffd9a3579aeef8608b8154e74202aebb4512
 Section: x11
 Priority: optional
 Description: Terminal emulator with word wrap written in C++. Created by 0hex01.
