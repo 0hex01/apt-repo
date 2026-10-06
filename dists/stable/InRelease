@@ -8,17 +8,17 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Tue, 06 Oct 2026 11:47:47 +0000
+Date: Tue, 06 Oct 2026 11:52:07 +0000
 MD5Sum:
  8da3d7cb78bb20b6351a95f42618a268 5863 main/binary-amd64/Packages
- ac44a152b880ab13d6cf8f29b2ff8867 2276 main/binary-amd64/Packages.gz
+ eac3850111f8375d68a59ff51e731bc7 2276 main/binary-amd64/Packages.gz
 SHA256:
  8cdd9598f49877e2cecfb685324cb4f15a042e170e0e51d5b4d438eef1dffb75 5863 main/binary-amd64/Packages
- 8450550d477fc4bf8124143519035ea091e040400e258968c500f81b78fb7cd2 2276 main/binary-amd64/Packages.gz
+ 0ba9417e6bbad268539214729e94b91758d4f46d7719a8d9ef927aeb5a500f76 2276 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCasTf4wAKCRCYrv7YQIsI
-MOddAQCOJP58GDAl6ohOzFSQ0fAQJilLPL9Lsr00SXGTsLjOPQD/Vp4bnG/cfXIh
-iDy6tsXFlTHw9DJBEe/2/Jf9MPhmHAU=
-=JnBk
+iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCasTg5wAKCRCYrv7YQIsI
+MPE5AQDASmO5Ol12IUdOYKxaELCEob2sth9IA+JrGUJPCgaGSwD8Chn8SQD1DQae
+lt3HukzTMSIj8+zkrnNiq13xfyduYQU=
+=ib0P
 -----END PGP SIGNATURE-----
