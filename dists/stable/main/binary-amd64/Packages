@@ -144,6 +144,20 @@ Section: x11
 Priority: optional
 Description: Terminal emulator with word wrap written in C++. Created by 0hex01.
 
+Package: vpn-manager
+Version: 1.0.0
+Architecture: amd64
+Maintainer: 0hex01 <anatomyangel9432@proton.me>
+Depends: openvpn, wireguard-tools, libgtk-3-0, openresolv | resolvconf, policykit-1
+Filename: dists/stable/main/binary-amd64/vpn-manager_1.0.0_amd64.deb
+Size: 97892
+MD5sum: d5645f8e842999db2f04461fe748d778
+SHA1: 6abdb82ce862686004d20755ae155ca6ceb2031e
+SHA256: 1f27e2ab7b933e3160cca2f118d57c69d858a4838fd6c898071134e1d483c13e
+Section: net
+Priority: optional
+Description: Openvpn and Wireguard vpn manager. Must have Openvpn credentials and your own wireguard .conf files for full functionality. Use ? button for wireguard information. Created by 0hex01.
+
 Package: vpnman
 Version: 1.0.1
 Architecture: all

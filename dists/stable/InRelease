@@ -8,17 +8,17 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Tue, 06 Oct 2026 15:08:53 +0000
+Date: Wed, 07 Oct 2026 00:30:57 +0000
 MD5Sum:
- 8da3d7cb78bb20b6351a95f42618a268 5863 main/binary-amd64/Packages
- fe6fc9a26530d04729d1fa7482c0516d 2276 main/binary-amd64/Packages.gz
+ 9a59a29be6cdbf0de0fee3d8c5d2c0b9 6522 main/binary-amd64/Packages
+ 60bcc94db062d790ef5c56245b96ca30 2515 main/binary-amd64/Packages.gz
 SHA256:
- 8cdd9598f49877e2cecfb685324cb4f15a042e170e0e51d5b4d438eef1dffb75 5863 main/binary-amd64/Packages
- afd306dc81774f6445d004f44a0b179c6bf739bf66340b5c72b2a8f1d3e8703e 2276 main/binary-amd64/Packages.gz
+ 3c83bda00dc4c702b4fd1301184973c31598a03111508822a2cad684fec898f8 6522 main/binary-amd64/Packages
+ d3979c78c14835d5652178ec8a19e5d9c5ac1b1820a4c684078ea81f15ebdcc5 2515 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCasUPBQAKCRCYrv7YQIsI
-MEw3AQDFobyGlLWJ7UXYq9A2NIIIS0r43DwWH5y/7/sOk7JIrAD+NWLvvHCJ75ga
-wPAHVLYdIQplGGq2so4/ZLbn74AOPwg=
-=e3SZ
+iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCasWSwQAKCRCYrv7YQIsI
+MNzZAQDyi4qEoV3GStY0QkDKlu+n3sZO6T2RQjIJ1BpW+VZutgD8DaEJz+5nl0O3
+lIYrdqrcnSl/24GkSPBrhosEg3S73ws=
+=hJBe
 -----END PGP SIGNATURE-----
