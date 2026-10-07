@@ -116,6 +116,20 @@ Description: ASUS ROG Keyboard RGB Control. Created by 0hex01.
  Supports multiple lighting modes including Static, Breathing, Rainbow,
  Wave, and more with customizable colors and brightness.
 
+Package: sandboxed
+Version: 1.0.0
+Architecture: amd64
+Maintainer: 0hex01 <anatomyangel9432@proton.me>
+Depends: bubblewrap, libgtk-3-0
+Filename: dists/stable/main/binary-amd64/sandboxed_1.0.0_amd64.deb
+Size: 1828912
+MD5sum: 19fdfe433f49086729fbe01cf7dafd42
+SHA1: 8a8bee52470577ed0c349ff852289dadb76d44d9
+SHA256: 9f6d0f9b1dc2282e15917f299b6487598a61ef8eb1f0bd2de5ec37616b750c1b
+Section: utils
+Priority: optional
+Description: Sandbox enviroment for Debian. Created by 0hex01
+
 Package: shorts
 Version: 1.0.1
 Architecture: amd64
