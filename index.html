@@ -49,14 +49,14 @@
   </header>
 
   <h2>Quick install</h2>
-  <pre>curl -fsSL https://0hex01.github.io/apt-repo/install.sh | sudo bash</pre>
+  <pre>curl -fsSL https://0hex01.github.io/0hex01-apt-repo/install.sh | sudo bash</pre>
   <p>This installs the repo keyring and adds the source, then runs <code>apt update</code>.</p>
 
   <h2>Manual install</h2>
-  <pre>curl -fsSL https://0hex01.github.io/apt-repo/0hex01.gpg \
+  <pre>curl -fsSL https://0hex01.github.io/0hex01-apt-repo/0hex01.gpg \
   | sudo tee /usr/share/keyrings/0hex01.gpg
 
-echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/0hex01.gpg] https://0hex01.github.io/apt-repo stable main' \
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/0hex01.gpg] https://0hex01.github.io/0hex01-apt-repo stable main' \
   | sudo tee /etc/apt/sources.list.d/0hex01.list
 
 sudo apt update</pre>
@@ -73,7 +73,7 @@ sudo apt install &lt;pkg&gt;</pre>
   <p class="sig">BF77 408A 4BF3 F3AA 1D71 8E45 98AE FED8 408B 0830</p>
   <p>Public key: <a href="0hex01.gpg">0hex01.gpg</a></p>
 
-  <footer>0hex01.github.io/apt-repo &middot; Created by 0hex01.</footer>
+  <footer>0hex01.github.io/0hex01-apt-repo &middot; Created by 0hex01.</footer>
 </main>
 <script>
 document.querySelectorAll('pre').forEach(function (pre) {

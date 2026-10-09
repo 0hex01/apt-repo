@@ -1,11 +1,11 @@
 #!/bin/bash
 # 0hex01 apt repo - one-line setup
-#   curl -fsSL https://0hex01.github.io/apt-repo/install.sh | sudo bash
+#   curl -fsSL https://0hex01.github.io/0hex01-apt-repo/install.sh | sudo bash
 set -euo pipefail
 
 [ "$(id -u)" -eq 0 ] || { echo "run as root: curl ... | sudo bash" >&2; exit 1; }
 
-BASE="https://0hex01.github.io/apt-repo"
+BASE="https://0hex01.github.io/0hex01-apt-repo"
 KEYRING="/usr/share/keyrings/0hex01.gpg"
 LIST="/etc/apt/sources.list.d/0hex01.list"
 

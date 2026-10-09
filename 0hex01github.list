@@ -1,1 +1,1 @@
-deb [trusted=yes allow-insecure=yes arch=amd64] https://0hex01.github.io/apt-repo stable main
+deb [trusted=yes allow-insecure=yes arch=amd64] https://0hex01.github.io/0hex01-apt-repo stable main
