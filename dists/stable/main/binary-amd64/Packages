@@ -69,25 +69,6 @@ Section: x11
 Priority: optional
 Description: dodomeki is a conky instance for Kali Rolling Linux, but can be used on any debian instance. use start, stop, or persist + dodomeki to use. Created by 0hex01.
 
-Package: kodachi-vm
-Version: 1.0.0
-Architecture: all
-Maintainer: 0hex01 <0hex01@users.noreply.github.com>
-Depends: qemu-system-x86, qemu-utils
-Filename: dists/stable/main/binary-amd64/kodachi-vm_1.0.0_all.deb
-Size: 1452
-MD5sum: 09e8606e20fde8481ec4a0c5328eed56
-SHA1: 2ae446e83fa5ffb92298e4e79ac1341d9c4094d3
-SHA256: ebf591add043bbd1b2ed629f6a24279c72cf8b57fbba58d9d2ef5c9f86b99b04
-Section: utils
-Priority: optional
-Description: Kodachi virtual machine start. Created by 0hex01.
- Boots ~/Downloads/linux-kodachi-xfce-9.0.1-amd64.iso in a KVM-accelerated
- QEMU window (4G RAM, 4 cores, virtio disk+net, GTK display). Creates the
- 40G qcow2 disk in ~/.config/vm-launcher on first run.
- .
- Usage: start-kodachi-vm
-
 Package: kuchikopi
 Version: 1.0.3
 Architecture: all
