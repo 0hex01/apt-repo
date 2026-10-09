@@ -1,0 +1,14 @@
+Origin: Personal Repository
+Label: Personal Packages
+Suite: unstable
+Codename: unstable
+Architectures: amd64
+Components: main
+Description: Personal apt repository
+Date: Fri, 09 Oct 2026 14:32:54 +0000
+MD5Sum:
+ 303605816f9a102dc98e2030acbbf125 492 main/binary-amd64/Packages
+ c8e259ce87eb73e876f26a0724f0550d 388 main/binary-amd64/Packages.gz
+SHA256:
+ 26c9cd9e8590afc7c3836127aade99d126d8ba2b8d94c7cad8c9d64cc84adec1 492 main/binary-amd64/Packages
+ 8b8880eebfe7f058af0117872f28f56a80ab0fa84e111f2115c666ca649ba2ce 388 main/binary-amd64/Packages.gz
