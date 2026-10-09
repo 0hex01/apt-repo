@@ -98,7 +98,7 @@ Section: x11
 Priority: optional
 Description: Installs driver version 615 for rtx 5060 (blackwell). Created by 0hex01.
 
-Package: rgb-rog-1.0.2
+Package: rgb-rog
 Version: 1.0.2
 Architecture: amd64
 Maintainer: Michael <anatomyangel9432@proton.me>
