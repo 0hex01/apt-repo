@@ -5,10 +5,10 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Fri, 09 Oct 2026 02:16:46 +0000
+Date: Fri, 09 Oct 2026 14:33:34 +0000
 MD5Sum:
  98bdba860741c4dd7f1433f4bb154b88 6990 main/binary-amd64/Packages
- b17440dc32356e88c30ab73a289737c2 2660 main/binary-amd64/Packages.gz
+ f44e6ef397d1a80df5a0564d261ce9c9 2660 main/binary-amd64/Packages.gz
 SHA256:
  d9d548b469c609216b0505990f808c7b50a8e1142b59643ca5bea09e0a1ae128 6990 main/binary-amd64/Packages
- 9c1ab79398e0928735f960eebe0ba5a33f0dd6efba1347ff7a8cbe269d724190 2660 main/binary-amd64/Packages.gz
+ a956e13d745599c091e35d55e236457f5ac70575656bbafcc030d3990611a444 2660 main/binary-amd64/Packages.gz

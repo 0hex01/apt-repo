@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: Personal Repository
 Label: Personal Packages
 Suite: unstable
@@ -12,3 +15,10 @@ MD5Sum:
 SHA256:
  26c9cd9e8590afc7c3836127aade99d126d8ba2b8d94c7cad8c9d64cc84adec1 492 main/binary-amd64/Packages
  88675b4831769bc5a0e1d410228829e05d7fd4891a7a35d62a4ae1cdf15b940b 388 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCasj7PgAKCRCYrv7YQIsI
+MIjxAQC4ClY7oh4KW5kJ1MI884mDmYzAcaDlxaDkoYl7klEkhwD+KfQurtXKrK2V
+ytRhjXAwwsdqKkAYX/N7DXbFcepEzAY=
+=USKw
+-----END PGP SIGNATURE-----
