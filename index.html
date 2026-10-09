@@ -52,12 +52,22 @@
   <pre>curl -fsSL https://0hex01.github.io/0hex01-apt-repo/install.sh | sudo bash</pre>
   <p>This installs the repo keyring and adds the source, then runs <code>apt update</code>.</p>
 
-  <h2>Manual install</h2>
+  <h2>Stable <span class="tag">&mdash; dists/stable/main/binary-amd64</span></h2>
   <pre>curl -fsSL https://0hex01.github.io/0hex01-apt-repo/0hex01.gpg \
   | sudo tee /usr/share/keyrings/0hex01.gpg
 
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/0hex01.gpg] https://0hex01.github.io/0hex01-apt-repo stable main' \
   | sudo tee /etc/apt/sources.list.d/0hex01.list
+
+sudo apt update</pre>
+
+  <h2>Unstable <span class="tag">&mdash; dists/unstable/main/binary-amd64</span></h2>
+  <p>Same signing key &mdash; if the keyring is already installed, skip the first line.</p>
+  <pre>curl -fsSL https://0hex01.github.io/0hex01-apt-repo-unstable/0hex01.gpg \
+  | sudo tee /usr/share/keyrings/0hex01.gpg
+
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/0hex01.gpg] https://0hex01.github.io/0hex01-apt-repo-unstable unstable main' \
+  | sudo tee /etc/apt/sources.list.d/0hex01-unstable.list
 
 sudo apt update</pre>
 
@@ -67,7 +77,9 @@ sudo apt install &lt;pkg&gt;</pre>
 
   <h2>Packages</h2>
   <p>After setup, list everything with <code>apt search 0hex01</code>, or browse the
-     <a href="dists/stable/main/binary-amd64/Packages">live Packages index</a>.</p>
+     <a href="dists/stable/main/binary-amd64/Packages">stable Packages index</a>
+     and the
+     <a href="https://0hex01.github.io/0hex01-apt-repo-unstable/dists/unstable/main/binary-amd64/Packages">unstable Packages index</a>.</p>
 
   <h2>Signing key</h2>
   <p class="sig">BF77 408A 4BF3 F3AA 1D71 8E45 98AE FED8 408B 0830</p>
