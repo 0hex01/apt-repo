@@ -2,42 +2,23 @@
 Hash: SHA512
 
 Origin: Personal Repository
-Label: Michael's Personal Packages
+Label: Personal Packages
 Suite: stable
 Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Sat, 10 Oct 2026 00:09:45 +0000
-MD5Sum:
- 157e9a6c40ee37d9c96bce4b798eb132 207 Release
-SHA1:
- 9d0c4078c781bbacf43318edb198e037f134be2a 207 Release
-SHA256:
- 15c7228f2ea1e9dc27b895dc7d57bbd59ca1d8766dfe1b022a66235811ded10a 207 Release
-MD5Sum:
- 17c8c43e1e6ada9961c7bb678a6badd6 2708 main/binary-amd64/Packages.gz
-SHA1:
- 0fa6cc72cdac95900cdef2bf13630f72593f0f7f 2708 main/binary-amd64/Packages.gz
-SHA256:
- 36ce4846983f232d84e68573d234fc659f206436fbe0022f2818da9e22985139 2708 main/binary-amd64/Packages.gz
+Date: Sat, 10 Oct 2026 00:10:11 +0000
 MD5Sum:
  19f0a4c75122738645da2ffa8797bdbd 7025 main/binary-amd64/Packages
-SHA1:
- 6cbfb3747b54a0421a7751898e6394c42d99706c 7025 main/binary-amd64/Packages
+ 440753fbf22470cd912a6b5ab68d6c4c 2708 main/binary-amd64/Packages.gz
 SHA256:
  3cc3595118c338e1a5f39d4ec598085765c1707a72103b4a3d84b84e10cd5a23 7025 main/binary-amd64/Packages
+ 16423b3896428b913e8abbe38d38fddf6f6f23b8ae52ff8b387e8a596952ca96 2708 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJgkkACgkQYZsIBm5H
-LRnF0wwAgQ/Fru0ItmUB7gn0LI18+5wu6jt0n84MHABIw8zjNFWTT8+z7zP52yGA
-viAhuAAWycyGeVwlFQOMqZvywytbhNeZ/qCABeBeBsMqiy1M3duC8VdehCNE7FKW
-xPL50f72KTFEwOf6eF9FEa3GDmoQCZDfPnEcgZvZ8Jl1podL2+dVRZ5fssfzJsVj
-9ZBt4YJM4EqLC6rVz672fGT3EKMJC+NKZ2WMHiL/ZAidXVOjb5NlCzUDdrt7a6MJ
-vwnVDwvzazxLThuKRyN8SKqffNk688GCFj8GfgGnszyVHveOrERMmM2mTHlwTDnk
-TGtWcLrKPRNgQYhWjgKnJhrWCpIr0NfyQtgLHksgwRz0vt9qdlfVfzVt50/xvcAs
-z9Bh0jE5U277c+F6Lq7PmyhKJ5b0Q6iFyQBoJkm9phmb2Vxu3Gkis0ab4ESiXPbP
-6VmJdeYUgvb8MV6xbfHP8rQmZ4IhmJoOzTzU6APeKn8CHs7EcGys4HfA9Ia2g1yO
-nSMW7V+U
-=f/Xe
+iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCasmCYwAKCRCYrv7YQIsI
+MIpUAQCNT9hoMm9uTiXuzvuhFJuppTjZ51dU9d2GnLSUV3mqPQD+KYof+U3S0Uep
+0ZzVVmRFiTXp24NqlDwI0Jgx5rpxFgI=
+=vLjm
 -----END PGP SIGNATURE-----
