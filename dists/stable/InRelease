@@ -8,19 +8,19 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Sat, 10 Oct 2026 01:17:04 +0000
+Date: Sat, 10 Oct 2026 01:17:05 +0000
 MD5Sum:
- 802498bfd3b87de8cae296c3da348a43 207 Release
+ e5de2025f6c625d60f7c8930c2e8bde4 207 Release
 SHA1:
- 9e05e4fb9a49f17e4625440aa471a16e62217684 207 Release
+ 6687396a1dc2ea14f72db36e4ba27ec5cb40c173 207 Release
 SHA256:
- 31cad82ccf702e8bdd8401ccdbef4638ff313f0147b04b28d40d8f9ef0aebc28 207 Release
+ 690a1fc37de334f9ae1b7646b1a5d727c5243bed35849c262a7601ddd2d831ea 207 Release
 MD5Sum:
- 82b98ddf4d43506c0be392e70e67ca79 2707 main/binary-amd64/Packages.gz
+ 779d9219803b72d2f00fe32ba6bd49c6 2707 main/binary-amd64/Packages.gz
 SHA1:
- 129adc85f43d451bbf330a2039f54983fe6f8e53 2707 main/binary-amd64/Packages.gz
+ 467e057f536407c020118f522cd04862355195e0 2707 main/binary-amd64/Packages.gz
 SHA256:
- e9380bfddaa8a3e925048815ae77ff8468be9bf850549270ad344be215bf94aa 2707 main/binary-amd64/Packages.gz
+ 46f72aca5d4b4d343eddf9ab4332329d308266e565f4508c14e7a0dbc0299f49 2707 main/binary-amd64/Packages.gz
 MD5Sum:
  f3b0293275800ed0e88076cb930d0de9 7025 main/binary-amd64/Packages
 SHA1:
@@ -29,15 +29,15 @@ SHA256:
  024a5a03bd4ec2160940af33c34805059b26764b82cddde60a6b23b983f649d0 7025 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJkhAACgkQYZsIBm5H
-LRlwEgwAooyJOymltPaVHomcPldXbAw/wbKwgZmobM0ybSJ3p54Igj0xcLHXW5E5
-vIj5dcH2ouhs4FLl1Zy+cjm3wFSvImIkjpEi8NSOjHtyzpNs3r90d+Cp2Il/iSkK
-o5YbP2GZwqkQNz5vMJ4iojK6VTcFa+jcMaHXF5kTvjq+gkHNmNisNQVVpCpHHR3T
-AGZsoIjb/WEtLG++iWPWkSnrPrcaxA+9jtnHxnvm0h6oJfp9ZwU7kaINapzqRbkS
-a0bhUgp4A/biJvd9w+4Fj/oSo5QnvqHwlowQ9SPwM28Yyw4FLwAAkDwaJ3Hay4RQ
-xFlZuadV/xTBpM57ijzSVXmWby9vEYvlDpI8mwC8fQdC65eCGdh6JVbWU7B/2d/l
-empIz0HXmEl9K+wkf/MoHR2yuioYKkZ48RexsK2jPhe0oUwiFcTWKsx4gil2VUQo
-3nZzh7lYGptOLydyhGAvtpB6UVBbFTb2gnZQXrktLcuNIgqk8KrPrt6i2QWr7ave
-JsTWinrI
-=W8HW
+iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJkhEACgkQYZsIBm5H
+LRk/7QwAtCSTTUQk0j/KTRPMha6kNE+AHqz8U9a73xLPfuUDWX8ieZfd8YgLXYy8
+rSng1eytpp4VyzDNJh/2J7TBTdHSYhutQe21jX439mTWb7GBNqJxtprpAq09lhHB
+X72WC4gB+LIHUlFz9DXeWDme2jSOlkIgc9E+QOtKj1oyT3x+GIWIP+y3iMGsO6Az
+9LE68Tu0/E61bEAuwIw1XE6hFFP6/a/udqNMgcrl2CmhGha32ONSoOALDOmDcHJm
+KoViTtS6si+lXsY+7CX1tZ/KUvGBSiIfF6gP/Csp2ZLIPUIKBisMKKaN0kEclzcG
+nIPhsUi75mgJN6uVuoaJ/iryd2C46ktjLnaqtzsYAzHfTooDONqkW+I6z1mAlefo
+CKaJCiN9i1SUvyP5pAqMET6NHn9JrTvrJq1oLgWycPxHgESbYhTPyLBmq1L0LOJY
+ahkcgCQD41y4X2S16kr8YVsfbqOqBzXhT5O+8m/lSHjokauU9Q2PKuQXcjwql/E7
+pIYNUo/q
+=ZqOc
 -----END PGP SIGNATURE-----
