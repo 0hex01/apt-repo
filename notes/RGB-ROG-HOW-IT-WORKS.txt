@@ -1,0 +1,111 @@
+================================================================================
+rgb-rog — HOW IT WORKS
+ASUS ROG keyboard RGB control (armoury_crate.py)
+================================================================================
+
+--------------------------------------------------------------------------------
+1. HOW "APPLY" WORKS WITHOUT KILLING THE KEYBOARD
+--------------------------------------------------------------------------------
+
+The ROG keyboard is a single USB device (VID 0x0B05, e.g. PID 0x19B6) with two
+HID interfaces:
+
+    Interface 0  ->  key input  (the kernel's usbhid driver drives this - typing)
+    Interface 1  ->  extra keys / vendor features
+
+The problem: RGB control commands are sent as HID class control transfers
+(bRequest 0x09 = SET_REPORT, wValue 0x035D) to interface 0. But libusb cannot
+claim an interface while the kernel's usbhid driver is bound to it — any write
+attempt returns "Resource busy".
+
+The naive fix — detach the kernel driver permanently — would stop all typing,
+which is why early attempts "killed the keyboard".
+
+The actual solution in set_lighting() is a temporary borrow:
+
+    1. _acquire_interface()
+         - is_kernel_driver_active(0) -> detach_kernel_driver(0)
+           (marks _detached_kernel = True so we know we owe the driver back)
+         - set_configuration()  (Errno 16 "busy" is expected and tolerated)
+         - usb.util.claim_interface(0)
+
+    2. Send the packet sequence (17-byte control transfers, 0x21/0x09/0x035D):
+         [0x5D 0xB3]  init_message: mode byte (msg[3]) + RGB (msg[4..6])
+                      + speed byte (msg[7]) for animated modes
+         [0x5D 0xB5]  "set" commit packet
+         [0x5D 0xB4]  "apply" packet
+         [0x5A 0xBA 0xC5 0xC4 level]  brightness (0-3, mapped from 0-100%)
+         50ms pause between packets — the MCU needs breathing room
+
+    3. finally: _release_interface()
+         - usb.util.release_interface(0)
+         - attach_kernel_driver(0)   <- usbhid rebinds, typing resumes
+
+The whole borrow lasts ~150-200ms. Keys pressed during that window just don't
+register — the keyboard is never "dead" because usbhid is reattached in the
+finally block even if a transfer fails. The kernel sees it as a normal
+unbind/rebind cycle; no reboot or replug needed.
+
+Extra safety:
+- control_transfer() retries on Errno 19 (ENODEV) / 110 (ETIMEDOUT):
+  disconnect -> reconnect -> retry, up to 3 times.
+- Nothing ever stays claimed — the app holds no USB handle between applies.
+
+--------------------------------------------------------------------------------
+2. HOW THE COLOR PERSISTS (across restarts, reboots, logins)
+--------------------------------------------------------------------------------
+
+Storage:
+    ~/.config/armoury-crate/config.json
+    {"mode": "Static", "red": 0, "green": 255, "blue": 0,
+     "brightness": 100, "speed": 2}
+
+Save path:
+    - "Apply" button  -> saves config to disk, then applies to keyboard
+    - "Save & Apply"  -> same (both persist; apply_settings() saves first)
+    So whatever you last applied is always what's on disk.
+
+Restore path (at login / "boot"):
+    /etc/xdg/autostart/rgb-rog.desktop
+        Exec=/usr/bin/rgb-rog --apply
+    XDG autostart is honored by every Linux desktop (XFCE, GNOME, KDE...),
+    so on any OS where the package is installed + a color was saved once,
+    the color is re-applied automatically at every login.
+
+--apply headless mode:
+    - argv check happens BEFORE the PyQt6 import — Qt is never loaded, so
+      the restore at boot is fast and has no GUI dependency.
+    - Loads config.json -> set_lighting() -> exits.
+    - When run via sudo, SUDO_USER is resolved through pwd so the *calling
+      user's* config is read (not /root/.config).
+
+Permissions (two independent paths, either one works):
+    a) udev rule  /etc/udev/rules.d/99-rgb-rog.rules
+       Matches all known ROG keyboard PIDs -> MODE 0660 GROUP plugdev
+       + TAG+="uaccess" (seat ACL for the logged-in user). No elevation
+       needed at all once the node is tagged.
+    b) sudoers drop-in  /etc/sudoers.d/rgb-rog
+       NOPASSWD for exactly "/usr/bin/rgb-rog --apply" and "-a".
+       The launcher self-elevates: if --apply is run as non-root it
+       re-execs through `sudo -n`. The GUI also falls back to this if a
+       direct USB write gets EACCES.
+    postinst validates the sudoers file (visudo -cf) and removes it if
+    malformed — it can never lock you out of sudo.
+
+What "persists" means physically:
+    The keyboard MCU keeps the lighting state in volatile memory — a power
+    off resets it to default. So persistence is done in SOFTWARE: the color
+    is re-pushed at every login by the autostart entry. It is not written
+    to keyboard firmware, which is why it applies "on load" of each OS
+    rather than surviving in the hardware itself.
+
+--------------------------------------------------------------------------------
+3. PACKAGE CONTENTS (1.0.3+)
+--------------------------------------------------------------------------------
+    /usr/bin/rgb-rog                          launcher (self-elevates for --apply)
+    /usr/lib/rgb-rog/armoury_crate.py         the app
+    /etc/xdg/autostart/rgb-rog.desktop        restore-at-login hook
+    /etc/udev/rules.d/99-rgb-rog.rules        plugdev/uaccess write permission
+    /etc/sudoers.d/rgb-rog                    NOPASSWD --apply fallback
+    DEBIAN/postinst                           validates sudoers + reloads udev
+================================================================================
