@@ -8,24 +8,24 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Sat, 10 Oct 2026 01:31:51 +0000
+Date: Sat, 10 Oct 2026 01:43:25 +0000
 MD5Sum:
  b0a64451424753d87bbdbc689ff46324 7002 main/binary-amd64/Packages
- 55f1eefe74490746a1d699bb12ca0f97 2662 main/binary-amd64/Packages.gz
+ ef3d4899436317bdba2c69bbd9616aea 2662 main/binary-amd64/Packages.gz
 SHA256:
  f1be8615e07bb8cda66ae9de94f557f4c589dd80ecbdf4afeb8b368e9cf63d0e 7002 main/binary-amd64/Packages
- c7126d555c3015ea13840170679e5ee2136f3e9594052a9f70579e2e9254d32d 2662 main/binary-amd64/Packages.gz
+ 0c99c66802396598e10d98f607642d7cb109b96c880364180ecb04c57c4aaa31 2662 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJlYcACgkQYZsIBm5H
-LRkYbAv/aweAzLmPj6ZYpN7weZtclfnUfOQPc0NSQ14HLNA7sUrqtepe/6baI0CT
-o9GzI+oEWdIEhyaxzGOPBOXjWMK6MbMRym6PZ1mse+3aPR+8Cs1Bb8f9omPPoURK
-KBynCr3sXtFOJVhAp3eXFsa4ij/6CN7WZ7vUMkQHLFyqQxO2j9pN3TV10qHW1rSy
-ynCsnp5pPYFopL45Q7PoHUXzb1MP10U5vVbeOpXzXteIMOG6rC5asOROt/QAv5jb
-sq8qMDbulpO4yHFgTkjkcvRHGQ8xkcDRKd5TPdfkfjDkOi5zubL4SJ75nrSNKkRh
-8N0mwn81iqIJkdk8ntCJHmPqRSFBJIAjkOETSeDmKKxRsbWr/elRqUy7RfFNwGGf
-Lnu1IwrKBbQP6DDO+xtaFuKeBsIDwkwRom35tpOU/EDoaujveW1gYCBaXMDdjeSC
-yKAx0I6mmpOF9g1OSuK/xqAmKWyqLga++cmWCZmvF0SQhnyZznUdhA+O4ggTcz72
-SJcm36rG
-=ZOhV
+iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJmD0ACgkQYZsIBm5H
+LRnSCgv/dZ6ZjaWWMq+oi/2hOJCXGwGCgrlrbOcaM8WLQFEDksHPX6ztMyAB3hJV
+ndD+grIdPI/P4Qo3tupVpcI2WC3RtiHVQfKqf0x3L0Hzt9KinSJaz9u4WmzmQJPd
+5EkvTK+yz8Q5OmYFrmSSEuMUp6Ehss+WojIzCByR3aEIZPzqprPk3aRHndXFj1jt
+BfwYBiPlwFTR0XxLeh0gexpIAHQ0ZTtHgyEnx4Odywr4QXzcRCw4k0Cbc2O/kpJX
+ecaY0zO6U4SxHo4MX1r+zRq1zeRf+NxzWhqd5xtjXUYENSQd7GIdqWYD0q0QI5y+
+jhCgaLiuiLWHB3hkXfQaiC0QNDidsQYFiQRo9WMQY2bReoQL19o22X+mP7GKfO4E
+CKlQJUnpEOcnXaNTxyF+wFiSJ0VS9UyUrCKOJEhchlgB0++lHvYAbWVw7z+4EODH
+7/TnHbpTbeb3SJ2B4nqXtzk8xDs7WPoneWCXTuYaie4ynRJczFhOezenvsxvjkI4
+ZrQ0QcSi
+=j8z7
 -----END PGP SIGNATURE-----
