@@ -2,23 +2,42 @@
 Hash: SHA512
 
 Origin: Personal Repository
-Label: Personal Packages
+Label: Michael's Personal Packages
 Suite: stable
 Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Fri, 09 Oct 2026 22:42:54 +0000
+Date: Sat, 10 Oct 2026 00:04:54 +0000
 MD5Sum:
- b0a64451424753d87bbdbc689ff46324 7002 main/binary-amd64/Packages
- d6b2fbac999600f99ebc846e797bce09 2662 main/binary-amd64/Packages.gz
+ 67449efa6bcf924ca69a1ee29e17fe69 207 Release
+SHA1:
+ 07bcdfd24cf5a98c2cc7e69c450e60fb3ff93daf 207 Release
 SHA256:
- f1be8615e07bb8cda66ae9de94f557f4c589dd80ecbdf4afeb8b368e9cf63d0e 7002 main/binary-amd64/Packages
- ef35e374baaa29c53ec236cc5c70bb6a2f4aa6856c99ea342db7edc4555a01ff 2662 main/binary-amd64/Packages.gz
+ 2d85c9190b5dbbe9e02881db0a95bca00db1f5ac2e2f344fa15729f8997de249 207 Release
+MD5Sum:
+ 51c059537823b9d0ad682d6daf00c57a 2983 main/binary-amd64/Packages.gz
+SHA1:
+ 93cee1c2078dbd9a7027047848cbaa02736cf98d 2983 main/binary-amd64/Packages.gz
+SHA256:
+ f2c056e3d1fefbbafafbe2166a66b92d4988d6cd01671f655d2a8dde3a5e168b 2983 main/binary-amd64/Packages.gz
+MD5Sum:
+ cbfce9cfe6e80a49a1f28015780f5e90 7761 main/binary-amd64/Packages
+SHA1:
+ 2ab0668e9ddffbe5d01841d8ee673d3b49469aa1 7761 main/binary-amd64/Packages
+SHA256:
+ 1981677ffbac4e046c17c6b106b8a55616a80f2f41f00dcbe1bdb42a65a8613d 7761 main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQS/d0CKS/Pzqh1xjkWYrv7YQIsIMAUCaslt7gAKCRCYrv7YQIsI
-MP4KAQCh96LSsCZ7FtfrIxTP7uVSEYvjstuFIX4O1jRCYqNunQEA/PlwI/FETxtC
-2GH/DMwVETlCIB6FJKcXNVSeXGDZqwo=
-=Nx9j
+iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJgSYACgkQYZsIBm5H
+LRmCOgwAiu/7sZ22w3blRcZefH22oRtSKaICQgA9GbzfzPq/PnI42A0lXBaibpqD
+Q3FtuStGCzAuOf2jz3+kKOFyHgIGOEqyFbQbZhKP8n44DuY+Jsog0xkZ4/UVE4+F
+t+zwyE1o8+iCFtcbB6VUa3Qf2UlFOfhSLo3/BNDYICMhg8D8KQmyoxPIZpMHUuTP
+qIjBrsmoHkOHPCEZ/y7mud3AZAZrZQb8sk5RwT0jJeSPkTCE1TAUS4sAiu9WfcDn
+5RnrDcNfJgpsplLL1RWbPXxjxLqePxFk26ecSjFMM7b14sQj+pOzVTWs6Vrf/GAG
++cFHTdpSSnlylrKudXml+SHeddqD8WGsogS4H7Tuc2Wfu3LCUBQrZCgsZ8EV2RkY
+O88WxyIuzCN3CqNqZ5AfF4U+Er4Yo3+YM2KX35dqqq9m6i+YTMEUEeNNr+CdAy0G
+NwAYL70GKBuPeKu7lV0DEQ1wdNIAcneLuKciOH5l2aCQivyeCnf4GUSUMWYcwbhe
+Rs7Enw00
+=vz3r
 -----END PGP SIGNATURE-----
