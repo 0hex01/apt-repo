@@ -5,7 +5,6 @@ REPO_DIR="$HOME/apt-repo"
 DIST="stable"
 COMPONENT="main"
 ARCH="amd64"
-KEY_ID="F68F020A817D6F1F4A1D1EF2619B08066E472D19"
 
 cd "$REPO_DIR" || exit 1
 
@@ -41,8 +40,8 @@ for file in $(find . -type f -name "Packages*" -o -name "Release"); do
     echo " $sha256 $size ${file#./}" >> Release
 done
 
-# Sign Release file (--yes: overwrite sigs without prompting)
-gpg --yes --default-key "$KEY_ID" --armor --detach-sign --output Release.gpg Release
-gpg --yes --default-key "$KEY_ID" --clearsign --output InRelease Release
 
 echo "Repository metadata updated successfully!"
+
+# unsigned repo - drop any stale signatures
+rm -f Release.gpg InRelease
