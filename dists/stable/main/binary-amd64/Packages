@@ -116,6 +116,24 @@ Description: ASUS ROG Keyboard RGB Control. Created by 0hex01.
  Supports multiple lighting modes including Static, Breathing, Rainbow,
  Wave, and more with customizable colors and brightness.
 
+Package: rgb-rog-1.0.4
+Version: 1.0.4
+Architecture: amd64
+Maintainer: 0hex01
+Depends: libusb-1.0-0, systemd
+Filename: dists/stable/main/binary-amd64/rgb-rog-1.0.4_1.0.4_amd64.deb
+Size: 26164
+MD5sum: 7d2d66160d1c912eef5130f3e0d799a4
+SHA1: f52a3ef9e6650c7a2df8a6815d984e368d3266e7
+SHA256: 19e8deb47a9eb6bc7d44dc96e5855f79f4d6f917785fc44905eef0aca8a65059
+Section: utils
+Priority: optional
+Description: Controlls ROGstrix keyboard RGB colored lights. Created by 0hex01.
+ Sets keyboard backlight color via USB Aura Core (Armoury Crate) packets.
+ The chosen color is written into the keyboard's own NVRAM so it persists
+ across reboots and different operating systems (kodachi, trixie, etc.).
+ A boot-time systemd service re-applies the saved color as a fallback.
+
 Package: sandboxed
 Version: 1.0.0
 Architecture: amd64

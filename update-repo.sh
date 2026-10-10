@@ -41,8 +41,8 @@ for file in $(find . -type f -name "Packages*" -o -name "Release"); do
     echo " $sha256 $size ${file#./}" >> Release
 done
 
-# Sign Release file
-gpg --default-key "$KEY_ID" --armor --detach-sign --output Release.gpg Release
-gpg --default-key "$KEY_ID" --clearsign --output InRelease Release
+# Sign Release file (--yes: overwrite sigs without prompting)
+gpg --yes --default-key "$KEY_ID" --armor --detach-sign --output Release.gpg Release
+gpg --yes --default-key "$KEY_ID" --clearsign --output InRelease Release
 
 echo "Repository metadata updated successfully!"

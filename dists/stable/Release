@@ -1,10 +1,11 @@
 Origin: Personal Repository
-Label: Personal Packages
+Label: Michael's Personal Packages
 Suite: stable
 Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
+<<<<<<< HEAD
 Date: Fri, 09 Oct 2026 22:42:54 +0000
 MD5Sum:
  b0a64451424753d87bbdbc689ff46324 7002 main/binary-amd64/Packages
@@ -12,3 +13,24 @@ MD5Sum:
 SHA256:
  f1be8615e07bb8cda66ae9de94f557f4c589dd80ecbdf4afeb8b368e9cf63d0e 7002 main/binary-amd64/Packages
  ef35e374baaa29c53ec236cc5c70bb6a2f4aa6856c99ea342db7edc4555a01ff 2662 main/binary-amd64/Packages.gz
+=======
+Date: Sat, 10 Oct 2026 00:00:04 +0000
+MD5Sum:
+ 9f8f14cdd02e2ca42e6976d6ce2c13df 207 Release
+SHA1:
+ 9c16179e27b4e7b27e6d71f79e211ee049d4a9cc 207 Release
+SHA256:
+ 0a8a194a763b125ba165a889fb8d5941086319f55ef2568fe205b61914b7f67e 207 Release
+MD5Sum:
+ da05737f55803c3275fccad88c1eb825 2983 main/binary-amd64/Packages.gz
+SHA1:
+ 4dc879168cf158b6cb0b4d41dc4179fb61223e3e 2983 main/binary-amd64/Packages.gz
+SHA256:
+ 28ce6f891c6ce1c3fb76c936b188689da4352ed7753165e1c32b8392bdfa8b4b 2983 main/binary-amd64/Packages.gz
+MD5Sum:
+ cbfce9cfe6e80a49a1f28015780f5e90 7761 main/binary-amd64/Packages
+SHA1:
+ 2ab0668e9ddffbe5d01841d8ee673d3b49469aa1 7761 main/binary-amd64/Packages
+SHA256:
+ 1981677ffbac4e046c17c6b106b8a55616a80f2f41f00dcbe1bdb42a65a8613d 7761 main/binary-amd64/Packages
+>>>>>>> 4e20478 (rgb-rog-1.0.4)
