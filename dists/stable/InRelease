@@ -2,42 +2,30 @@
 Hash: SHA512
 
 Origin: Personal Repository
-Label: Michael's Personal Packages
+Label: Personal Packages
 Suite: stable
 Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Sat, 10 Oct 2026 00:28:55 +0000
-MD5Sum:
- 2d393b8ccb8ec7d3ae3e218736207b93 207 Release
-SHA1:
- 972debad515bf8832430495dfe7b716c6d81997d 207 Release
-SHA256:
- 048a95aa1631ed88d6ebef78603dac58c8c8c4f473fe5f8bc4e8b8aeff0e6d22 207 Release
-MD5Sum:
- 2d81707cc902e2e56b5f9c05919f26db 2708 main/binary-amd64/Packages.gz
-SHA1:
- 1dbe2624a67f28bcb19412413e20f9b35b897b97 2708 main/binary-amd64/Packages.gz
-SHA256:
- d0a64ce2faed0452d787313364631d578c8f7fe4105242b852c5d9813c6806e8 2708 main/binary-amd64/Packages.gz
+Date: Sat, 10 Oct 2026 00:29:07 +0000
 MD5Sum:
  19f0a4c75122738645da2ffa8797bdbd 7025 main/binary-amd64/Packages
-SHA1:
- 6cbfb3747b54a0421a7751898e6394c42d99706c 7025 main/binary-amd64/Packages
+ 3a74d5157fcb9920c3b3c4bc0535c59e 2708 main/binary-amd64/Packages.gz
 SHA256:
  3cc3595118c338e1a5f39d4ec598085765c1707a72103b4a3d84b84e10cd5a23 7025 main/binary-amd64/Packages
+ c8634aa2fe1b79f41c0dfa074d42387523a1ffa03d91c31f1926c7fe724293cb 2708 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJhscACgkQYZsIBm5H
-LRk54gwAm5sDVefyiuMNiSWDtl1C+7cNoxmdsmX1tYj28BXi/SvLIuT02o+1xsfo
-rihMmmqfue6YZ2sPjtNBf7GWOzsK2N/JcL3EyX/i09N+JY7x4R3Whv1p2K1HVqFP
-FBRJJICRpdWWs8IfWDpomDbAnmjaNiPX9bRC3RVIgAnNNQymmMcvKQhhk0Oojfxu
-ONKUNHAGMtTzmJoRXGb6swWcrcT4ke9nuKS9bkarz5CleucuxQdzxrkk3QG2SbVq
-fhkhwnIxFy1BbGaKhsug3FZTduJjlzAYBj0u6aE841BthdLS+PQ19vqZAlyS3FSn
-3ug4ox9HLnGDkS7HCwWlI9z5fgc3Y34G+y6XE68BBN7zv/xQOhioqYVBdP1Hu865
-PzhWSP/EoNRWIx37TMTGELSwwBxJhaSyoFHRs6f+U6FOcjK04A+NMfwV8aN86O3t
-EtMlzrtWADTfeZx9P9ZJdtpjVP8h5DwHYqVT2VJcoxWJq3vn3D3D1psmyOB1x4ud
-84unHKd/
-=FFxQ
+iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJhtMACgkQYZsIBm5H
+LRlVpwv+Px5E/ntMVdafDYnbkRJrML1NgGnMGnEjuQ1Us74y+4GrTHBWLf1r68Ao
+95h/QpSqHfYQZYutoMpf0POdFgBkKJO6Ov7abKqVdMJm8m16KerDD/zam8QUTMRd
+jCKctV3r5hxB3NPZMkK3Xqxkr8KbqBMoC0JRlTuZC2zgEsB2iN+GRwj1LR6Nbjij
+BF2c4ol9GC+BWDXuaD3hd6LFWnjSAseKjVvCahzBr7+cw9U4zry5hcRHuj0ezNvp
+SqoLZI+QqT+zsrbp0BxWou2SyKIO4RgSYtKaABXNFGhI0A7eGO4QEBM42QltRpUS
+YOW+WA3fDW2P7tcOzPxGtgwIvSf/J+R9bFoAeRp6cdtOOn7MlD6fyBBM3vuyg6cw
+tOSLLQXJ6bbZvm2K9YBCauLlc2hApWV/AWwE9sOVnzbPlwOLbFsSz1FuL/T2uOuE
++sXqA39ukO3CgYGn9zdySd41Qlpcm9RPd1VDl79TEpe0+TFVROWJJkwKVpj4kyam
+FifszM94
+=INr1
 -----END PGP SIGNATURE-----
