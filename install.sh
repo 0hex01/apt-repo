@@ -7,13 +7,16 @@ set -euo pipefail
 
 BASE="https://0hex01.github.io/0hex01-apt-repo"
 BASEU="https://0hex01.github.io/0hex01-apt-repo-unstable"
+KEYRING="/usr/share/keyrings/0hex01.gpg"
 LIST="/etc/apt/sources.list.d/0hex01.list"
 LISTU="/etc/apt/sources.list.d/0hex01-unstable.list"
 
-rm -f /usr/share/keyrings/0hex01.gpg   # repos are unsigned now
+curl -fsSL "$BASE/0hex01.gpg" -o "$KEYRING.tmp"
+mv "$KEYRING.tmp" "$KEYRING"
+chmod 644 "$KEYRING"
 
-echo "deb [arch=amd64 trusted=yes] $BASE stable main" > "$LIST"
-echo "deb [arch=amd64 trusted=yes] $BASEU unstable main" > "$LISTU"
+echo "deb [arch=amd64 signed-by=$KEYRING] $BASE stable main" > "$LIST"
+echo "deb [arch=amd64 signed-by=$KEYRING] $BASEU unstable main" > "$LISTU"
 
 apt update
 echo "0hex01 stable + unstable repos added - try: apt search 0hex01"

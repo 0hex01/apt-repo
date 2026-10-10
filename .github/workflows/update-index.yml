@@ -19,7 +19,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dpkg-dev
-        run: sudo apt-get install -y dpkg-dev
+        run: sudo apt-get install -y dpkg-dev gpg
+
+      - name: Import signing key
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.APT_REPO_SIGNING_KEY }}
+        run: |
+          mkdir -p ~/.gnupg && chmod 700 ~/.gnupg
+          printf '%s' "$GPG_PRIVATE_KEY" | gpg --batch --import
 
       - name: Update index and push
         run: |
@@ -61,6 +68,12 @@ jobs:
                     echo " $(sha256sum "$f" | cut -d' ' -f1) $(stat -c%s "$f") ${f#./}"
                   done
                 } > Release
+                gpg --batch --yes --pinentry-mode loopback --passphrase '' \
+                  --local-user "F68F020A817D6F1F4A1D1EF2619B08066E472D19" \
+                  --clearsign -o InRelease Release
+                gpg --batch --yes --pinentry-mode loopback --passphrase '' \
+                  --local-user "F68F020A817D6F1F4A1D1EF2619B08066E472D19" \
+                  --detach-sign -o Release.gpg Release
               )
             done
 

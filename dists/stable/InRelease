@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Origin: Personal Repository
 Label: Michael's Personal Packages
 Suite: stable
@@ -24,3 +27,17 @@ SHA1:
  6cbfb3747b54a0421a7751898e6394c42d99706c 7025 main/binary-amd64/Packages
 SHA256:
  3cc3595118c338e1a5f39d4ec598085765c1707a72103b4a3d84b84e10cd5a23 7025 main/binary-amd64/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE9o8CCoF9bx9KHR7yYZsIBm5HLRkFAmrJhrcACgkQYZsIBm5H
+LRluGwwAqhTs5BuVsmksFJUOoLyps7BVD4bfwCK0uZllHDt7DPN9QSPfNmrvlSxz
+70txcqYwii4nE87OyjnSy4sxMS+It5PJ++NHme3bHLpZoxwb0HaR1wrDGez4W963
+swzt8Qef53NUpCs9WZN6BOIxQ1tHD48o8URXGWQdp9kP+0Axsi+PA1Co0Zkfw0YF
+uEirksrpFAdbbwzvRmOexiiFopWxCxE3qbsZ8VipcPUo+qmUvAu7fHJbh+ySGQts
+bE7EzImqKfCSSjOdW2KuYpt1n8YDgkfczz6WnJPyo6vmVTU9FofBDyrSKY4UpEW6
+OS96zUFmR289No6eZgCXr8DnpP2wyd9+2++UpwBK3BoK0e30Ybe5sWPo0bWgXTRu
+XmSqMnTev4l2Qy/XWf/Ge6rKyzd2sIELFgjZ9P0AunZrTx8YicqhtlAKDKHLn7Hi
+FZwyrZy/U73aMCbT/luP/sEgb4wtQIHY6KynGlVKfTBmI997EhoRJr/44XEo9KLu
+jcbRDBLd
+=xt3X
+-----END PGP SIGNATURE-----
