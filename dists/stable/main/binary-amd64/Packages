@@ -98,24 +98,6 @@ Section: x11
 Priority: optional
 Description: Installs driver version 615 for rtx 5060 (blackwell). Created by 0hex01.
 
-Package: rgb-rog-1.0.2
-Version: 1.0.2
-Architecture: amd64
-Maintainer: Michael <anatomyangel9432@proton.me>
-Depends: python3, python3-pyqt6, python3-usb
-Filename: dists/stable/main/binary-amd64/rgb-rog-1.0.2_1.0.2_amd64.deb
-Size: 16336
-MD5sum: 9dfd1a2791f02186fe219ac6ed4b46d9
-SHA1: acb95bda15777957e7fa13f9b099dc8153c18865
-SHA256: ba55f3b24098e2d4fa681d9f505a12c6e2af762dad4b04c89e028661bf7a4afc
-Section: utils
-Priority: optional
-Description: ASUS ROG Keyboard RGB Control. Created by 0hex01.
- Colored lights controll for ROG laptop keys.
- GUI application for controlling RGB lighting on ASUS ROG laptops.
- Supports multiple lighting modes including Static, Breathing, Rainbow,
- Wave, and more with customizable colors and brightness.
-
 Package: rgb-rog-1.0.4
 Version: 1.0.4
 Architecture: amd64
