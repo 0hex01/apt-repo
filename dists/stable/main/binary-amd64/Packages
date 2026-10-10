@@ -98,23 +98,23 @@ Section: x11
 Priority: optional
 Description: Installs driver version 615 for rtx 5060 (blackwell). Created by 0hex01.
 
-Package: rgb-rog-1.0.4
-Version: 1.0.4
+Package: rgb-rog-1.0.2
+Version: 1.0.2
 Architecture: amd64
-Maintainer: 0hex01
-Depends: libusb-1.0-0, systemd
-Filename: dists/stable/main/binary-amd64/rgb-rog-1.0.4_1.0.4_amd64.deb
-Size: 27424
-MD5sum: 37e0e3de3d53be2310ef3de28c5c547b
-SHA1: 329627b7e839343b3817dbbf5f31380a343cc091
-SHA256: 40b26ceb94b23bc6b7315be0d59811f4f5574ea7ca8d877919a431dce8d58ef9
+Maintainer: Michael <anatomyangel9432@proton.me>
+Depends: python3, python3-pyqt6, python3-usb
+Filename: dists/stable/main/binary-amd64/rgb-rog-1.0.2_1.0.2_amd64.deb
+Size: 16336
+MD5sum: 9dfd1a2791f02186fe219ac6ed4b46d9
+SHA1: acb95bda15777957e7fa13f9b099dc8153c18865
+SHA256: ba55f3b24098e2d4fa681d9f505a12c6e2af762dad4b04c89e028661bf7a4afc
 Section: utils
 Priority: optional
-Description: Controlls ROGstrix keyboard RGB colored lights. Created by 0hex01.
- Sets keyboard backlight color via USB Aura Core (Armoury Crate) packets.
- The chosen color is written into the keyboard's own NVRAM so it persists
- across reboots and different operating systems (kodachi, trixie, etc.).
- A boot-time systemd service re-applies the saved color as a fallback.
+Description: ASUS ROG Keyboard RGB Control. Created by 0hex01.
+ Colored lights controll for ROG laptop keys.
+ GUI application for controlling RGB lighting on ASUS ROG laptops.
+ Supports multiple lighting modes including Static, Breathing, Rainbow,
+ Wave, and more with customizable colors and brightness.
 
 Package: sandboxed
 Version: 1.0.0
