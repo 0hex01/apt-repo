@@ -104,10 +104,10 @@ Architecture: amd64
 Maintainer: 0hex01
 Depends: libusb-1.0-0, systemd
 Filename: dists/stable/main/binary-amd64/rgb-rog-1.0.4_1.0.4_amd64.deb
-Size: 26360
-MD5sum: 4ee451edae7712f5c60bbbdf7b41a7ad
-SHA1: c458bfb8f017871e941664bf70a0974c7fd0a74d
-SHA256: 9f64de44bb50a4b9eba9ba22c2141136a531c68d568f8c72318522696437296c
+Size: 27424
+MD5sum: 37e0e3de3d53be2310ef3de28c5c547b
+SHA1: 329627b7e839343b3817dbbf5f31380a343cc091
+SHA256: 40b26ceb94b23bc6b7315be0d59811f4f5574ea7ca8d877919a431dce8d58ef9
 Section: utils
 Priority: optional
 Description: Controlls ROGstrix keyboard RGB colored lights. Created by 0hex01.
