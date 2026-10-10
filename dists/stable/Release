@@ -1,26 +1,14 @@
 Origin: Personal Repository
-Label: Michael's Personal Packages
+Label: Personal Packages
 Suite: stable
 Codename: stable
 Architectures: amd64
 Components: main
 Description: Personal apt repository
-Date: Sat, 10 Oct 2026 01:17:05 +0000
-MD5Sum:
- e5de2025f6c625d60f7c8930c2e8bde4 207 Release
-SHA1:
- 6687396a1dc2ea14f72db36e4ba27ec5cb40c173 207 Release
-SHA256:
- 690a1fc37de334f9ae1b7646b1a5d727c5243bed35849c262a7601ddd2d831ea 207 Release
-MD5Sum:
- 779d9219803b72d2f00fe32ba6bd49c6 2707 main/binary-amd64/Packages.gz
-SHA1:
- 467e057f536407c020118f522cd04862355195e0 2707 main/binary-amd64/Packages.gz
-SHA256:
- 46f72aca5d4b4d343eddf9ab4332329d308266e565f4508c14e7a0dbc0299f49 2707 main/binary-amd64/Packages.gz
+Date: Sat, 10 Oct 2026 01:17:16 +0000
 MD5Sum:
  f3b0293275800ed0e88076cb930d0de9 7025 main/binary-amd64/Packages
-SHA1:
- e675cadc34ec4cf1a4198cee6596cd4d5a5626a6 7025 main/binary-amd64/Packages
+ d6905a2c432e4182472fdb029591c393 2707 main/binary-amd64/Packages.gz
 SHA256:
  024a5a03bd4ec2160940af33c34805059b26764b82cddde60a6b23b983f649d0 7025 main/binary-amd64/Packages
+ d421ec138c185123729e114e0ff035856a9d4ed3c784ba07469bb5dcfc02ef8c 2707 main/binary-amd64/Packages.gz
